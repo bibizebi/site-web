@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "omegle";
+    src: url("/font/omegle.otf") format("truetype"),
+   }
+
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background-image:url() ;
+    margin:0;
+    background-size: cover;
+    overflow-x: hidden;
+    display : flex ;
+    flex-direction : column ;
+}
