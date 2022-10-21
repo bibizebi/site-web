@@ -1,6 +1,13 @@
 @font-face {
     font-family: omegle;
     src: url("/font/omegle.otf")}
+@font-face {
+    font-family: Plumpfull;
+    src: url("/font/Plumpfull.ttf")}
+@font-face {
+    font-family: American;
+    src: url("/font/American-Captain.otf")}
+  
 
 * {
     box-sizing: border-box;
@@ -22,6 +29,6 @@ body {
 }
 
 .container {
-  font-family: omegle;
+  font-family: Plumpfull;
   font-size: 4rem;
 }
