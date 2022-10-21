@@ -29,7 +29,15 @@ body {
 }
 
 .sec1 .container {
+  margin-left: 240px;
+  margin-top: 240px;
   font-family: American;
   font-size: 4rem;
 
+}
+.sec1 .container2 {
+  margin-left: 150px;
+  margin-top: 0;
+  font-size: 1rem;
+  font-size: American;
 }
