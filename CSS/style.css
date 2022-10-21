@@ -1,17 +1,27 @@
 @font-face {
-    font-family: "omegle";
-    src: url("/font/omegle.otf") format("truetype"),
-   }
+    font-family: omegle;
+    src: url("/font/omegle.otf")}
 
 * {
     box-sizing: border-box;
   }
 
 body {
-    background-image:url() ;
-    margin:0;
-    background-size: cover;
-    overflow-x: hidden;
-    display : flex ;
-    flex-direction : column ;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/*SECTION 1*/
+
+@media (min-width: 1500px) {
+  .sec1 {
+    height: 100vh;
+    width: 100%;
+  }
+}
+
+.container {
+  font-family: omegle;
+  font-size: 4rem;
 }
