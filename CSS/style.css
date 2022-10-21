@@ -7,6 +7,10 @@
 @font-face {
     font-family: American;
     src: url("/font/American-Captain.otf")}
+@font-face {
+    font-family: Vogue;
+    src: url("/font/Vogue.ttf")}
+  
   
 
 * {
@@ -28,16 +32,16 @@ body {
   }
 }
 
-.sec1 .container {
+.container {
   margin-left: 240px;
   margin-top: 240px;
-  font-family: American;
+  font-family: 'Vogue';
   font-size: 4rem;
 
 }
-.sec1 .container2 {
-  margin-left: 150px;
+.container2 {
+  margin-left: 750px;
   margin-top: 0;
   font-size: 1rem;
-  font-size: American;
+  font-family: 'Vogue';
 }
